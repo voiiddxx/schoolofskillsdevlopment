@@ -1,0 +1,418 @@
+
+
+/*===2nd hero end===*/
+
+/*===navbar===*/
+
+.nav-image img {
+    height: 7%;
+    width: 24%;
+    margin-left: 220px;
+    margin-top: 5px;
+}
+
+/*=navbar end===*/
+
+
+
+/*hero part===*/
+
+.hero-part{
+    background-color: white;
+}
+.hero-image {
+    flex-shrink: inherit;
+    flex-basis: 70%;
+    position: relative;
+    margin-right: 260px;
+    margin-top: -3px;
+}
+
+.main-image {
+    height: auto;
+    width: 120%;
+    position: relative;
+    margin-left: 38px;
+    margin-top: 76px;
+
+}
+
+.hero-part {
+    display: flex;
+
+}
+
+.hero-text h1 {
+    font-size: 57px;
+    font-weight: 1000;
+
+
+}
+
+.hero-text h1 span {
+    color: #0035D4;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    margin-left: 183px;
+    margin-top: 139px;
+    margin-bottom: 40px;
+}
+
+
+.hero-text .btn1 {
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+    padding: 13px;
+    background-color: #0035D4;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid #0035D4;
+
+}
+.hero-text .btn1:hover{
+    background-color: white;
+    border: 1px solid #0035D4;
+    color: rgb(0, 0, 0);
+    transition: 0.5ms ease-in;
+}
+
+.hero-text .btn2 {
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 2px solid #0035D4;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.btn2:hover{
+    background-color: #0035D4;
+    color: white;
+    transition: 0.5ms ease-in;
+}
+
+/*hero part end===*/
+
+
+
+
+
+
+
+/* ===why part===*/
+
+
+.whynow{
+    margin-top: 40px;
+}
+
+
+.whyyy{
+
+    background-color: #F8F9F9;
+    margin-top: 40px;
+  }
+  .choose-head  h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Heebo' sans-serif;
+    font-weight: 800;
+    background-color: #0035D4;
+    padding-bottom: 30px;
+    color: white;
+    
+    
+  }
+  .choose-head p{
+    text-align: center;
+    color: #cdcdcd;
+    background-color: #0035D4;
+    margin-top: -10px;
+  
+  }
+  .parent{
+    background-color: #0035D4;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -18px;
+  }
+  
+  
+  .child{
+    margin: 34px 31px;
+    width: 30vh;
+    height: 40vh;
+    background-color: #0035D4;
+    border-radius: 20px;
+  transition: 0.3s;
+  }
+  .child h2{
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    font-weight: 550;
+    font-size: 25px;
+    color: white;
+  }
+  .child img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px ;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 0%;
+  
+  }
+  .child p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  /* ===why part end===*/
+  
+  
+  
+  
+
+
+
+
+/*=====footer===*/
+
+.dash-line p{
+    text-align: center;
+    margin-top: 210px;
+}
+
+.last-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.footer-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 50%;
+}
+.footer-text h1{
+    margin-top: 25px;
+    font-weight: 1000;
+
+}
+.footer-text{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    
+    
+}
+.maintextfooter{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.small{
+    text-align: center;
+    font-size:15px ;
+    font-weight: 400;
+    color: rgb(40, 40, 40);
+
+}
+
+.insta{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 350;
+
+}
+.insta span{
+    color: #0035D4;
+    cursor: pointer;
+    
+}
+
+.copyright{
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: rgb(44, 43, 43);
+}
+/*=====footer end===*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*media query for head part==*/
+
+@media only screen and (max-width:1450px) {
+    .heromain{
+        margin-bottom: 45px;
+    }
+    .hero-text h1 {
+        font-size: 49px;
+    }
+}
+
+
+@media only screen and (max-width:1300px) {
+    .hero-text h1 {
+        font-size: 45px;
+
+    }
+
+    .hero-image{
+        margin-right: 280px;
+
+    }
+
+    .main-image {
+        height: auto;
+        width: 170%;
+    }
+
+    .btn1 {
+        font-size: 13px;
+    }
+
+    .btn2 {
+        font-size: 13px;
+    }
+    
+    .parent{
+        gap: 20px;
+    }
+    .child{
+        margin-bottom: 0px;
+    }
+}
+
+
+
+@media only screen and (max-width:500px) {
+    .nav-image img {
+        height: 7%;
+        width: 25%;
+        margin-left: 10px;
+    }
+
+    .hero-part {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .hero-image {
+      margin-top: -55px;
+      display: block;
+      margin-left: 5px;
+      margin-right: 10px;
+      width: 39%;
+    }
+
+    .hero-text {
+        margin-left: 40px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+
+    .hero-text h1 {
+        font-size: 33px;
+        margin-left: 5px;
+    }
+
+    .main-image {
+        margin-left: 20px;
+        width: 227%;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:390px) {
+    .hero-image{
+        width: 23%;
+    }
+
+    .main-image{
+        height: auto;
+        width: 370%;
+    }
+}
+
+/*media query for head part END==*/
+
+
+/*====footer===*/
+
+@media only screen and (max-width:500px) {
+    .last-footer{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    }
+    
+    /*====footer end===*/
+    
+    
+    
+    
+
+
+
+
+    /*===preloaqder==*/
+    #preloader{
+        background: white url(images/Circles-menu-3.gif) no-repeat center center;
+        background-size: 3%;
+        height: 100vh;
+        width: 100%;   
+        position: fixed;
+        z-index: 100;
+    }
+
+
+    @media only screen and (max-width:500px) {
+        #preloader{
+            background-size: 10%;
+        }
+    }
