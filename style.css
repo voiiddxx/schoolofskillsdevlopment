@@ -6,7 +6,7 @@
 
 .nav-image img {
     height: 7%;
-    width: 24%;
+    width: 34%;
     margin-left: 220px;
     margin-top: 5px;
 }
@@ -148,10 +148,12 @@
     background-color: #0035D4;
     display: flex;
     flex-direction: row;
-    gap: 35px;
+    gap: 45px;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: -18px;
+    padding-bottom: 65px;
+    min-height: 500px;
   }
   
   
@@ -159,9 +161,11 @@
     margin: 34px 31px;
     width: 30vh;
     height: 40vh;
+    max-height: 45vh;
     background-color: #0035D4;
     border-radius: 20px;
   transition: 0.3s;
+  margin-bottom: 30px;
   }
   .child h2{
     margin-top: 25px;
@@ -186,16 +190,56 @@
     font-size: 15px;
     color: white;
     text-align: center;
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+
+  .child a{
+    text-decoration: none;
+    font-family: 'poppins';
+    background-color: white;
+    color: #0035D4;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 8%;
+    margin-top: 10px;
+    margin-left: 65px;
+  
+
+
+  }
+
+  .child a:hover{
+    background-color: #0035D4;
+    color: white;
+    transition: 0.6ms ease-in;
   }
   
   
   /* ===why part end===*/
   
-  
-  
-  
 
 
+/*===submision Note===*/
+  
+
+.sub-note{
+    background-color: #0035D4;
+    padding-top: 0px;
+}
+  
+.sub-note h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #0035D4;
+    padding-bottom: 15px;
+    
+}
+
+
+/*===submision Note end===*/
 
 
 /*=====footer===*/
